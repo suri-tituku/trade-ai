@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: trade-ai
+    env: docker
+    plan: free
+    autoDeploy: true
+    region: singapore   # or oregon if Singapore unavailable
